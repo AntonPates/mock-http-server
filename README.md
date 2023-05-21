@@ -36,6 +36,28 @@ Usage of ./build/bin/mock-server:
 ]
 ```
 
+## Examples
+
+```bash
+curl -i localhost:8080/healthcheck
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Date: Sun, 21 May 2023 20:44:00 GMT
+Content-Length: 6
+
+OK 200
+```
+
+```bash
+curl -i localhost:8080/api/v1/json
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Sun, 21 May 2023 20:17:50 GMT
+Content-Length: 16
+
+{"key":"value"}
+```
+
 ### TODO
 - [ ] Add support for different methods (POST, PUT, DELETE, etc)
 - [ ] Add GitHub Actions workflow

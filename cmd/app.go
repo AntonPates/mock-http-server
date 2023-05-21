@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"fmt"
 	"net/http"
 
 	"github.com/AntonPates/mock-http-server/internal/respconf"
@@ -25,7 +24,6 @@ func app() int {
 	}
 	router := http.NewServeMux()
 	for _, v := range conf {
-		fmt.Println("status code:", v.StatusCode)
 		router.HandleFunc(v.Path, CreateHttpHandlerFunc(v))
 	}
 	err = http.ListenAndServe(*addr, router)

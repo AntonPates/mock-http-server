@@ -1,0 +1,22 @@
+[
+    {
+        "method": "GET",
+        "path": "/healthcheck",
+        "body": "OK 200",
+        "status_code": 200,
+        "headers": {
+            "Content-Type": "text/plain"
+        }
+    },
+    {
+        "method": "GET",
+        "path": "/api/v1/json",
+        "body": {
+            "key": "value"
+        },
+        "status_code": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+]

@@ -5,8 +5,8 @@ tasks:
     dir: ./cmd
 
     cmds:
-      - rm ../build/bin/mock-server
-      - CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o ../build/bin/mock-server .
+      - rm ../build/bin/mock-http-server
+      - CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o ../build/bin/mock-http-server .
 
   test:
     deps: [build]

@@ -6,7 +6,7 @@
 
 ## Usage
 ```bash
-./build/bin/mock-server --help
+./build/bin/mock-http-server --help
 Usage of ./build/bin/mock-server:
   -addr string
         address to listen (default ":8080")
@@ -63,7 +63,7 @@ Content-Length: 16
 ```
 
 ### TODO
-- [ ] Add support for different methods (POST, PUT, DELETE, etc)
-- [ ] Add GitHub Actions workflow
+- [/] Add support for different methods (POST, PUT, DELETE, etc)
+- [/] Add GitHub Actions workflow
 - [ ] Make repo public
 - [ ] Publish docker image on docker hub

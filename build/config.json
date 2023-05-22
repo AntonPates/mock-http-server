@@ -18,5 +18,16 @@
         "headers": {
             "Content-Type": "application/json"
         }
+    },
+    {
+        "method": "POST",
+        "path": "/api/v1/json",
+        "body": {
+            "id": 1
+        },
+        "status_code": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        }
     }
 ]

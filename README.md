@@ -63,7 +63,7 @@ Content-Length: 16
 ```
 
 ### TODO
-- [/] Add support for different methods (POST, PUT, DELETE, etc)
-- [/] Add GitHub Actions workflow
+- [x] Add support for different methods (POST, PUT, DELETE, etc)
+- [x] Add GitHub Actions workflow
 - [ ] Make repo public
 - [ ] Publish docker image on docker hub

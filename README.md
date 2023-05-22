@@ -1,3 +1,7 @@
+![CI](https://https://github.com/AntonPates/mock-http-server/.github/workflows/action.yml/badge.svg)
+
+
+
 # Mock http server
 
 ## Usage

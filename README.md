@@ -4,6 +4,8 @@
 
 # Mock http server
 
+Simple http server for mocking http requests in tests.
+
 ## Usage
 ```bash
 ./build/bin/mock-http-server --help
@@ -62,8 +64,13 @@ Content-Length: 16
 {"key":"value"}
 ```
 
+if you need something more complex, you can try [killgrave](https://github.com/friendsofgo/killgrave) or [mockoon](https://mockoon.com/cli/).
+
+
+
 ### TODO
 - [x] Add support for different methods (POST, PUT, DELETE, etc)
 - [x] Add GitHub Actions workflow
-- [ ] Make repo public
+- [x] Make repo public
 - [ ] Publish docker image on docker hub
+
